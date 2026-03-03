@@ -9,7 +9,7 @@ wire w0, w1, w2, w3, w4, w5, w6, w7;
     full_adder bit_0(
         .A(~A0),
         .B(1'b1),
-        .Cin(w7),
+        .Cin(1'b0),
         .Cout(w0),
         .Y(Y0)
     );
@@ -63,4 +63,5 @@ wire w0, w1, w2, w3, w4, w5, w6, w7;
         .Y(Y7)
     );
    
+
 endmodule
